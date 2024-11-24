@@ -7,54 +7,31 @@ This project involves the implementation of commonly used Unix-like utilities in
 ---
 
 ## File Structure
--
+1. Project - 1 : Contains the code files and documentation for project-1
+2. Project - 2 : Contains the code files and documentation for project-2
 
 ---
-## Implemented Utilities
+## Project - 1
+Using the xv6 operating system
+a. Analyzed the existing implementation of system calls that you plan to modify.
+b. Wrote new system calls for fork tree, signals, waitpid, exit, priorty pipes.
+c. Demonstrated their usage by adding a user program in xv6 that incorporates them.
 
-### 1. **Custom `ls`**
-custom_ls [options] [path]
-custom_ls               # List files in the current directory.
-custom_ls -a            # Show hidden files.
-custom_ls -l            # Recursively list files.
-custom_ls -s            # Display files with their sizes in bytes.
+---
 
-### 2. **Custom `cat`**
-custom_cat [-u|-l] file1 file2 ...
-# Examples:
-custom_cat file1.txt             # Display file contents.
-custom_cat -u file1.txt          # Display contents in uppercase.
-custom_cat file1.txt file2.txt   # Concatenate and display multiple files.
-
-### 3. **Custom `grep`**
-custom_grep [-i|-v] pattern file1 file2 ...
-# Examples:
-custom_grep "pattern" file1.txt        # Search for a pattern.
-custom_grep -i "pattern" file1.txt     # Case-insensitive search.
-custom_grep -v "pattern" file1.txt     # Display non-matching lines.
-
-### 4. **Custom `wc`**
-custom_wc file1 file2 ...
-# Examples:
-custom_wc file1.txt              # Count for a single file.
-custom_wc file1.txt file2.txt    # Count for multiple files.
-
-### 5. **Custom `cp`**
-custom_cp [-r] source destination
-# Examples:
-custom_cp file1.txt file2.txt    # Copy file1.txt to file2.txt.
-custom_cp -r dir1 dir2           # Copy dir1 to dir2 recursively.
-
-### 6. **Custom `mv`**
-custom_mv source destination
-# Examples:
-custom_mv old.txt new.txt        # Rename old.txt to new.txt.
-custom_mv dir1 /path/to/dir2     # Move dir1 to a new location.
-
-### 1. **Custom `rm`**
-custom_rm [-r] file_or_directory
-# Examples:
-custom_rm file1.txt              # Delete file1.txt.
-custom_rm -r dir1                # Recursively delete dir1.
-
-
+## Project - 2 
+In this project, you have to developed a series of simplified UNIX-like utilities. Some utilities are
+mentioned here
+a. ls - List directory contents
+ls -l, ls -a, ls -s
+b. cat - Concatenate and display file content
+cat -u, cat -l
+c. grep - Search for patterns in files
+grep -i, grep -v
+d. wc - Word, line, and character count
+e. cp - Copy files
+cp -r
+f. mv - Move or rename files
+mv -r
+g. rm - Remove files or directories
+rm -r
