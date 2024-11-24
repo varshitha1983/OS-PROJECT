@@ -1,10 +1,6 @@
 # 1.Implementing new System calls
 # 2.Simplified Unix-Like Utilities
 
-## Project Overview
-
-This project involves the implementation of commonly used Unix-like utilities in C. Each utility replicates the functionality of corresponding Unix commands, offering valuable insights into system programming, file operations, and command-line interface design.
-
 ---
 
 ## File Structure
