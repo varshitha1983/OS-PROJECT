@@ -1,5 +1,5 @@
-# Implementing new System calls
-# Simplified Unix-Like Utilities
+# 1.Implementing new System calls
+# 2.Simplified Unix-Like Utilities
 
 ## Project Overview
 
